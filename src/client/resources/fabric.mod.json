@@ -8,6 +8,7 @@
     "Bongo"
   ],
   "license": "MIT",
+  "icon": "assets/realdeath/icon.png",
   "environment": "client",
   "entrypoints": {
     "client": [
