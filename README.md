@@ -1,23 +1,11 @@
-# RealDeath
+# RealDeath - die in an impactful die (in game ofc)
 
-RealDeath is a client-side Fabric mod for Minecraft 26.2. On death, it immediately cuts all sound and replaces the world with a pitch-black screen. After three seconds, the normal death interface fades in over two seconds while the background stays black.
+ReadDeath is a client-side Fabric mod for Minecraft 26.2 (backports coming soon). The mod changes the way of what you see after dying in game. Following text hidden under spoiler reveals what actually happens after death. I suggest you trying the mod out first tho, there are no screamers, jumpscares or anything like that istg.
 
-On the first death in hardcore mode, the only interface shown is a **Give Up** button. It exits without deleting the world. Rejoining that dead world shows a faster-fading prompt with **Observe** and **Move On**: Observe requests the vanilla hardcore spectator respawn, while Move On leaves the world or server.
+## Compatibility
 
-The bundled `death-ambient.ogg` fades in with each death interface.
+RealDeath is a client-side Fabric mod. It does not need to be installed on the server.
 
-## Requirements
-
-- Minecraft 26.2
-- Fabric Loader 0.19.3 or newer
-- Fabric API 0.153.0+26.2
-- Java 25
-
-## Build
-
-```powershell
-$env:JAVA_HOME = 'C:\path\to\java-25'
-.\gradlew.bat build
-```
-
-The distributable JAR is written to `build/libs/realdeath-1.0.0.jar`.
+| RealDeath | Minecraft | Fabric Loader | Dependensies            | Java |
+|-----------|-----------|---------------|-------------------------|------|
+| 1.0.x     | 26.2      | 0.19.3+       | Fabric API 0.153.0+26.2 | 25   |
