@@ -2,7 +2,7 @@
 
 ReadDeath is a client-side Fabric mod for Minecraft 26.2 (backports coming soon). The mod changes the way of what you see after dying in game. Following text hidden under spoiler reveals what actually happens after death. I suggest you trying the mod out first tho, there are no screamers, jumpscares or anything like that istg.
 <details>
-<summary>What happens after death?</summary>
+<summary>What happens after death? SPOILER</summary>
 
 After death the screen goes pitch black, then death screen slowly fades in with windy ambient noise fading in simultaneously.
 
@@ -22,7 +22,7 @@ The code was ENTIRELY written by AI. I have ZERO knowledge about how to write co
 The assets packaged with mod are entirely made by me without any AI help.
 
 <details>
-<summary>Example</summary>
+<summary>SPOILER</summary>
 
 For example `death-ambient.ogg` was made in FL Studio. I generated noise using 3x Osc VST Plugin and put some effect over it.
 
