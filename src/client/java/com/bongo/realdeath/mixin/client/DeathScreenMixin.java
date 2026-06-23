@@ -86,7 +86,7 @@ public abstract class DeathScreenMixin extends Screen implements DeathScreenAudi
 	) {
 		this.realdeath$setCursorHidden(true);
 		this.realdeath$rejoiningHardcore = hardcore
-			&& HardcoreDeathRegistry.wasAlreadyDeadAndMark(this.minecraft, player.tickCount < 100);
+			&& HardcoreDeathRegistry.wasAlreadyDeadAndMark(this.minecraft);
 		this.realdeath$loopSound = new DeathLoopSound(
 			this.realdeath$rejoiningHardcore ? REALDEATH_REJOIN_AUDIO_VOLUME : REALDEATH_NORMAL_AUDIO_VOLUME
 		);
