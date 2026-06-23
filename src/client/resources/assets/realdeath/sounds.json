@@ -1,0 +1,10 @@
+{
+  "death-ambient": {
+    "sounds": [
+      {
+        "name": "realdeath:death-ambient",
+        "stream": true
+      }
+    ]
+  }
+}

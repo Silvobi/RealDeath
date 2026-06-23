@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "realdeath",
+  "version": "${version}",
+  "name": "RealDeath",
+  "description": "Turns the Minecraft death screen into a silent, pitch-black fade.",
+  "authors": [
+    "Bongo"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.bongo.realdeath.RealDeathClient"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "realdeath.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
