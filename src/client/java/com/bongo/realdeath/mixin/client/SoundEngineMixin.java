@@ -18,7 +18,7 @@ public abstract class SoundEngineMixin {
 		final SoundInstance sound,
 		final CallbackInfoReturnable<SoundEngine.PlayResult> cir
 	) {
-		if (Minecraft.getInstance().gui.screen() instanceof DeathScreenAudioState state
+		if (Minecraft.getInstance().screen instanceof DeathScreenAudioState state
 			&& state.realdeath$isAudioCutoffActive()
 			&& !(sound instanceof DeathLoopSound)) {
 			cir.setReturnValue(SoundEngine.PlayResult.NOT_STARTED);

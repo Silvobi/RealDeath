@@ -260,7 +260,7 @@ public abstract class DeathScreenMixin extends Screen implements DeathScreenAudi
 				if (result) {
 					this.realdeath$exitToTitle();
 				} else {
-					this.minecraft.gui.setScreen((Screen)(Object)this);
+					this.minecraft.setScreen((Screen)(Object)this);
 				}
 			},
 			Component.translatable("deathScreen.quit.confirm"),
@@ -268,7 +268,7 @@ public abstract class DeathScreenMixin extends Screen implements DeathScreenAudi
 			Component.translatable("deathScreen.titleScreen"),
 			Component.translatable("gui.cancel")
 		);
-		this.minecraft.gui.setScreen(confirm);
+		this.minecraft.setScreen(confirm);
 	}
 
 	@Unique
@@ -277,7 +277,7 @@ public abstract class DeathScreenMixin extends Screen implements DeathScreenAudi
 			this.minecraft.level.disconnect(ClientLevel.DEFAULT_QUIT_MESSAGE);
 		}
 		this.minecraft.disconnectWithSavingScreen();
-		this.minecraft.gui.setScreen(new TitleScreen());
+		this.minecraft.setScreen(new TitleScreen());
 	}
 
 	@Override

@@ -49,7 +49,7 @@ public final class DeathLoopSound extends AbstractTickableSoundInstance {
 			if (this.fadeOutTicksRemaining == 0) {
 				this.stop();
 			}
-		} else if (!(Minecraft.getInstance().gui.screen() instanceof DeathScreen)) {
+		} else if (!(Minecraft.getInstance().screen instanceof DeathScreen)) {
 			this.stop();
 		}
 	}
