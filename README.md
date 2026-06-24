@@ -14,7 +14,7 @@ RealDeath is a client-side Fabric mod. It does not need to be installed on the s
 
 | RealDeath | Minecraft | Fabric Loader | Dependensies            | Java |
 |-----------|-----------|---------------|-------------------------|------|
-| 1.0.0-beta.2 | 26.2   | 0.19.3+       | Fabric API 0.153.0+26.2 | 25   |
+| 1.0.0-beta.3 | 26.2   | 0.19.3+       | Fabric API 0.153.0+26.2 | 25   |
 
 Backports soon!
 
@@ -37,5 +37,5 @@ $env:JAVA_HOME = 'C:\path\to\java-25'
 .\gradlew.bat build
 ```
 
-The distributable JAR is written to `build/libs/realdeath-1.0.0-beta.2.jar`.
+The distributable JAR is written to `build/libs/realdeath-1.0.0-beta.3.jar`.
 
