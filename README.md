@@ -8,15 +8,10 @@ After death the screen goes pitch black, then death screen slowly fades in with 
 
 </details>
 
-## Compatibility
+## Dependecies
+Requires [Fabric API](https://modrinth.com/mod/fabric-api)
 
-RealDeath is a client-side Fabric mod. It does not need to be installed on the server.
-
-| RealDeath | Minecraft | Fabric Loader | Dependensies            | Java |
-|-----------|-----------|---------------|-------------------------|------|
-| 1.0.0-beta.3 | 26.2   | 0.19.3+       | Fabric API 0.153.0+26.2 | 25   |
-
-Backports soon!
+~~Backports soon!~~ Backports for every versions 26.X have been made - more backports soon!
 
 # NOTICE
 
