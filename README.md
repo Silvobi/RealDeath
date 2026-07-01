@@ -32,5 +32,5 @@ $env:JAVA_HOME = 'C:\path\to\java-25'
 .\gradlew.bat build
 ```
 
-The distributable JAR is written to `build/libs/realdeath-1.0.0-beta.3.jar`.
+The distributable JAR is written to `build/libs/realdeath-1.0.0-beta.4.jar`.
 

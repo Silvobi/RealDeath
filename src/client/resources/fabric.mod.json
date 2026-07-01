@@ -3,12 +3,12 @@
   "id": "realdeath",
   "version": "${version}",
   "name": "RealDeath",
-  "description": "Turns the Minecraft death screen into a silent, pitch-black fade.",
+  "description": "Changes in-game death screen for a more dramatic one!",
   "authors": [
     "Bongo"
   ],
   "license": "MIT",
-  "icon": "assets/realdeath/icon.png",
+  "icon": "assets/realdeath/icon_128.png",
   "environment": "client",
   "entrypoints": {
     "client": [
